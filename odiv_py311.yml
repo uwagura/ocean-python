@@ -1,0 +1,112 @@
+# Conda Environment Descriptor
+
+# To install:
+#     mamba env create -f odiv_py311.yml
+# 
+# Or install in a specific location:
+#     mamba env create --prefix /nbhome/$USER/python/envs/py311_`date +"%Y%m%d"` -f odiv_py311.yml
+
+name: py311
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # NumPy Version
+  - numpy
+
+  # All other packages
+  - bokeh
+  - black
+  - bottleneck
+  - cartopy
+  - cmocean
+  - cftime
+  - dask
+  - dask_labextension
+  - dask-jobqueue
+  - esmf
+  - esmpy
+  - gsw
+  - gcm_filters
+  - gcsfs
+  - h5netcdf
+  - holoviews
+  - intake
+  - intake-xarray
+  - ipykernel
+  - ipython
+  - ipympl
+  - jupyter
+  - jupyterlab
+  - lxml
+  - matplotlib
+  - momlevel
+  - mpich
+  - nc-time-axis
+  - netcdf4
+  - numba
+  - palettable
+  - pandas
+  - pandoc
+  - pip
+  - pylint
+  - pymysql
+  - pyshp
+  - pytest
+  - pytorch
+  - pyyaml
+  - regionmask
+  - s3fs
+  - scipy
+  - scikit-learn
+  - seaborn
+  - seawater
+  - shapely
+  - six
+  - sqlite
+  - tabulate
+  - tempest-extremes
+  - tensorflow
+  - xarray
+  - xgcm
+  - xhistogram
+  - xesmf>
+  - zarr
+
+  # ReadTheDocs Packages
+  - jupyter-sphinx
+  - nbsphinx
+  - sphinx
+  - sphinx-book-theme
+  - sphinx-rtd-theme
+
+  # Dora Server Development
+  - cryptography
+  - flask
+  - flask-login
+  - flask-mail
+  - gunicorn
+  - jinja2
+  - oauthlib
+  - python-dotenv
+  - werkzeug
+
+  - pip:
+      - git+https://github.com/adcroft/MOM6_parameter_scanner
+      - git+https://github.com/raphaeldussin/sectionate
+      - git+https://github.com/raphaeldussin/static_downsampler
+      - git+https://github.com/jkrasting/doralite
+      - git+https://github.com/jkrasting/mplsettings
+      - git+https://github.com/jkrasting/momgrid
+      - cmip_basins
+      - gfdlvitals
+      - jupyterlab-code-formatter
+      - mdtf_test_data
+      - xoverturning
+      - xwavelet
+      - xwmt
+      - xcompare
+      - omlabs
