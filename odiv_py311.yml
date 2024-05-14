@@ -70,10 +70,11 @@ dependencies:
   - tabulate
   - tempest-extremes
   - tensorflow
+  - utide
   - xarray
   - xgcm
   - xhistogram
-  - xesmf>
+  - xesmf
   - zarr
 
   # ReadTheDocs Packages
