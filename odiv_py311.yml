@@ -18,6 +18,7 @@ dependencies:
   - numpy
 
   # All other packages
+  - astropy
   - bokeh
   - black
   - bottleneck
