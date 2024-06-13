@@ -30,6 +30,7 @@ dependencies:
   - dask-jobqueue=0.8.5
   - esmf=8.6.1
   - esmpy=8.6.1
+  - geopy=2.4.1
   - gsw=3.6.18
   - gcm_filters=0.3.0
   - gcsfs=2024.6.0
