@@ -1,12 +1,12 @@
 # Conda Environment Descriptor
 
 # To install:
-#     mamba env create -f odiv_py311.yml
+#     mamba env create -f med_py311.yml
 # 
 # Or install in a specific location:
-#     mamba env create --prefix /nbhome/$USER/python/envs/py311_`date +"%Y%m%d"` -f odiv_py311.yml
+#     mamba env create --prefix /nbhome/$USER/python/envs/medpy311_`date +"%Y%m%d"` -f med_py311.yml
 
-name: py311
+name: medpy311
 
 channels:
   - conda-forge

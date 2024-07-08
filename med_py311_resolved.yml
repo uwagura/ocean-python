@@ -1,4 +1,4 @@
-name: py311
+name: medpy311
 channels:
 - conda-forge
 dependencies:
