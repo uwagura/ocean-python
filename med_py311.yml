@@ -15,17 +15,21 @@ dependencies:
   - python=3.11
 
   # NumPy Version
-  - numpy
+  - numpy=1.26.4
 
   # All other packages
+  - bias_correction
+  - boltons
   - bottleneck
   - cartopy
   - cmocean
   - cftime
+  - climpred
   - colorcet
   - dask
   - dask_labextension
   - dask-jobqueue
+  - eofs
   - esmf
   - esmpy
   - geopy
@@ -43,6 +47,7 @@ dependencies:
   - numba
   - palettable
   - pandas
+  - pint
   - pip
   - pyshp
   - pyyaml
@@ -54,11 +59,13 @@ dependencies:
   - shapely
   - utide
   - xarray
+  - xclim
   - xgcm
   - xhistogram
   - xskillscore
   - xeofs
   - xesmf
+  - xrft
   - zarr
 
   - pip:
