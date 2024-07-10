@@ -17,15 +17,11 @@ dependencies:
   # NumPy Version
   - numpy=1.26.4
 
-  # All other packages
-  - bias_correction
+  # General packages and dependencies
   - boltons
   - bottleneck
   - cartopy
-  - cmocean
   - cftime
-  - climpred
-  - colorcet
   - dask
   - dask_labextension
   - dask-jobqueue
@@ -45,7 +41,6 @@ dependencies:
   - nc-time-axis
   - netcdf4
   - numba
-  - palettable
   - pandas
   - pint
   - pip
@@ -59,14 +54,26 @@ dependencies:
   - shapely
   - utide
   - xarray
-  - xclim
   - xgcm
   - xhistogram
-  - xskillscore
   - xeofs
   - xesmf
   - xrft
   - zarr
+
+  # niche modules for time series
+  - ruptures 
+
+  # modules for ocean prediction
+  - bias_correction
+  - climpred
+  - xskillscore
+  - xclim
+
+  # color palettes
+  - cmocean
+  - colorcet
+  - palettable
 
   - pip:
       - git+https://github.com/raphaeldussin/sectionate
