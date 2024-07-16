@@ -41,6 +41,7 @@ dependencies:
   - nc-time-axis
   - netcdf4
   - numba
+  - openpyxl
   - pandas
   - pint
   - pip
