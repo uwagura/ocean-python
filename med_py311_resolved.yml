@@ -8,6 +8,7 @@ dependencies:
 - boltons=24.0.0
 - bottleneck=1.4.0
 - cartopy=0.23.0
+- cmcrameri=1.9
 - cmocean=4.0.3
 - cftime=1.6.4
 - climpred=2.4.0

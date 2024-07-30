@@ -75,6 +75,7 @@ dependencies:
   - cmocean
   - colorcet
   - palettable
+  - cmcrameri
 
   - pip:
       - git+https://github.com/raphaeldussin/sectionate
