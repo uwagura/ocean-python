@@ -61,6 +61,7 @@ dependencies:
   - xesmf
   - xrft
   - zarr
+  - copernicusmarine
 
   # niche modules for time series
   - ruptures 
